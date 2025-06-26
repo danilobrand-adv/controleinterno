@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COORDENADORIA DO SISTEMA DE CONTROLE INTERNO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e3e5e9;
+        }
+        .sidebar {
+            background-color: #918b39; /* Cor escura para a barra lateral */
+            color: #031f25;
+            width: 250px;
+            min-width: 250px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 1.5rem;
+            box-shadow: 2px 0 5px rgba(194, 101, 101, 0.1);
+        }
+        .sidebar-header {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .sidebar-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar-nav li {
+            margin-bottom: 0.75rem;
+        }
+        .sidebar-nav a {
+            display: block;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .sidebar-nav a:hover {
+            background-color: #34495e; /* Um pouco mais claro no hover */
+            color: #fbfbfb;
+        }
+        .main-content {
+            margin-left: 250px; /* Offset para a barra lateral */
+            background-color: #2a684800;
+            min-height: 100vh;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        .header-banner {
+            background-image: url('https://blog.auddas.com/wp-content/uploads/2024/06/Controles-internos-e-compliance-o-que-sao-e-para-que-servem-scaled.jpg'); /* Imagem de placeholder */
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* Altura do banner */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(245, 243, 243);
+            text-align: center;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-bottom: 2rem;
+        }
+        .header-banner h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .header-banner h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        .content-section h3 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #5a608d;
+            padding-bottom: 0.5rem;
+        }
+        .content-section p, .content-section li {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: #34495e;
+            text-align: justify;
+        }
+        .content-section ul {
+            list-style: disc;
+            margin-left: 1.5rem;
+            padding-left: 0;
+        }
+        .content-section ul li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            CCIGOIANAPE
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#" id="controleinternolink">CONTROLE INTERNO</a></li>
+                <li><a href="#" id="ferramentasdecontroleLink">FERRAMENTAS DE CONTROLE</a></li>
+                <li><a href="#" id="contratosLink">CONTRATOS</a></li>
+                <li><a href="#" id="leisMunicipaisLink">LEIS MUNICIPAIS</a></li>
+                <li><a href="#" id="decretosMunicipaisLink">DECRETOS MUNICIPAIS</a></li>
+                 
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content rounded-lg">
+        <div class="header-banner rounded-lg">
+            <h1>COORDENADORIA DO SISTEMA DE CONTROLE INTERNO</h1>
+            <h2>PREFEITURA MUNICIPAL DE GOIANA-PE</h2>
+        </div>
+
+        <div class="content-section">
+            <h3 class="text-2xl font-bold mb-6 text-gray-800">Objetivos e Metas do Controle Interno do Município de Goiana</h3>
+            <p>
+                O Controle Interno do Município de Goiana, instituído pela Lei Municipal nº 2.103, de 25 de janeiro de 2009, e com respaldo nas diretrizes constitucionais e logísticas nacionais, desempenha um papel fundamental na administração pública local. O Órgão Central do Sistema de Controle Interno também conhecido como Coordenadoria do Sistema de Controle Interno (CCI), é responsável por garantir a conformidade dos atos administrativos com os princípios constitucionais e legais, assegurando a boa gestão dos recursos públicos e promovendo a transparência da administração municipal.
+            </p>
+
+            <h4 class="text-xl font-semibold mb-4 mt-6 text-gray-700">Objetivos do Controle Interno</h4>
+            <ul>
+                <li>
+                    <strong>Assegurar a Legalidade e Eficiência:</strong> O Controle Interno tem como objetivo principal assegurar que todos os atos de gestão administrativa estejam em conformidade com a Constituição Federal, a Lei de Responsabilidade Fiscal (Lei Complementar Federal nº 101/2000), e demais legislações pertinentes. O foco está na legalidade, impessoalidade, moralidade, publicidade e eficiência dos processos administrativos e financeiros.
+                </li>
+                <li>
+                    <strong>Monitoramento e Avaliação da Gestão:</strong> A CCI é encarregada de monitorar e avaliar a execução dos atos administrativos e financeiros das gestões públicas. Isso inclui a análise da aplicação dos recursos, a verificação da eficácia das políticas públicas e o acompanhamento dos convênios e contratos.
+                </li>
+                <li>
+                    <strong>Prevenção da Transparência e Prestação de Contas:</strong> Outro objetivo crucial é garantir a transparência na gestão dos recursos públicos. O Controle Interno busca assegurar que as informações sobre a administração municipal sejam acessíveis e claras para a população, facilitando a prestação de contas e fortalecendo a confiança pública na gestão municipal.
+                </li>
+                <li>
+                    <strong>Prevenção e Detecção de Irregularidades:</strong> O Sistema de Controle Interno atua na prevenção e detecção de irregularidades e fraudes. Por meio de auditorias e controles, o sistema visa identificar e corrigir desvios e falhas que possam comprometer a integridade dos processos administrativos e financeiros.
+                </li>
+                <li>
+                    <strong>Apoiar a Melhoria dos Processos Administrativos:</strong> A CCI também tem o objetivo de contribuir para a melhoria contínua dos processos administrativos, oferecendo orientações e recomendações para otimizar e aprimorar a promoção e a aplicação das ações governamentais.
+                </li>
+            </ul>
+
+            <h4 class="text-xl font-semibold mb-4 mt-6 text-gray-700">Metas do Controle Interno</h4>
+            <ul>
+                <li>
+                    <strong>Realização de Auditorias e Avaliações Regulares:</strong> Uma das metas primordiais é realizar auditorias periódicas e avaliações sistemáticas dos atos de gestão dos recursos públicos. Isso inclui a revisão de contadores, convênios e a aplicação de subvenções e restrições de receitas, conforme exigido pela Resolução TC nº 101/2000 do Tribunal de Contas do Estado do Pernambuco.
+                </li>
+                <li>
+                    <strong>Implementação e Revisão de Procedimentos de Controle:</strong> Estabelecer e revisar continuamente procedimentos de controle interno para garantir que estejam alinhados com as melhores práticas e com a legislação vigente. Isso envolve a criação de protocolos e diretrizes para a execução e monitoramento das atividades administrativas e financeiras.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Você pode adicionar lógica JavaScript aqui, se necessário.
+        // Por exemplo, para manipular cliques nos links da barra lateral ou carregar conteúdo dinamicamente.
+
+        // Exemplo de como você pode definir os links dos botões:
+        document.getElementById('controleinternolink').href = 'https://sites.google.com/view/ccigoianape/in%C3%ADcio/controle-interno';
+        document.getElementById('ferramentasdecontroleLink').href = 'https://sites.google.com/view/ccigoianape/ferramentas-de-controle-e-orienta%C3%A7%C3%B5es-normativas';
+        document.getElementById('contratosLink').href = 'https://sites.google.com/view/ccigoianape/contratos';
+        document.getElementById('leisMunicipaisLink').href = 'https://sites.google.com/view/ccigoianape/leis-municipais';
+        document.getElementById('decretosMunicipaisLink').href = 'https://sites.google.com/view/ccigoianape/decretos-municipais';
+
+        // Lógica para adaptar o tamanho do banner e texto ao redimensionar (opcional)
+        window.addEventListener('resize', () => {
+            const banner = document.querySelector('.header-banner');
+            const h1 = banner.querySelector('h1');
+            const h2 = banner.querySelector('h2');
+
+            if (window.innerWidth < 768) { // Exemplo para telas menores
+                h1.style.fontSize = '1.5rem';
+                h2.style.fontSize = '1rem';
+            } else {
+                h1.style.fontSize = '2.5rem';
+                h2.style.fontSize = '1.5rem';
+            }
+        });
+        // Chamar no carregamento inicial para definir o tamanho correto
+        window.dispatchEvent(new Event('resize'));
+    </script>
+</body>
+</html>
